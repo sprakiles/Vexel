@@ -1,0 +1,39 @@
+/* Custom scrollbar styling for a dark theme */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #202225; /* discord-dark */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2F3136; /* discord-dark-2 */
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #36393F; /* discord-dark-3 */
+}
+
+/* Chevron rotation for details/summary */
+details > summary {
+  list-style: none; /* remove default marker */
+}
+details > summary::-webkit-details-marker {
+  display: none; /* remove default marker for safari */
+}
+
+.chevron-icon {
+  transition: transform 0.2s ease-in-out;
+}
+
+details[open] > summary .chevron-icon {
+  transform: rotate(180deg);
+}
+
+/* General body styles for better look and feel */
+body {
+  background-color: #36393F; /* discord-dark-3 */
+}
