@@ -65,4 +65,4 @@ Contributions are welcome. Please fork the repository and open a pull request.
 
 ---
 
-Built by sprakiles.
+Built with ❤️ by [Mahmoud](https://github.com/sprakiles)
